@@ -1,4 +1,4 @@
- <img src="/src/assets/boiler-plate.svg" alt="Project Banner Image">
+ <img src="/src/assets/boiler.svg" alt="Project Banner Image">
 
 # Vite + React Technigo Boilerplate
 
