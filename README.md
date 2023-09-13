@@ -1,6 +1,6 @@
  <img src="/src/assets/boiler.svg" alt="Project Banner Image">
 
-# Vite + React Technigo Boilerplate
+# Vite + React + Zuzstand State Management Technigo Boilerplate
 
 Welcome to the `react-vite-boiler-plate`!
 
