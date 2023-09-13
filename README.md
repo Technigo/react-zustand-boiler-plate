@@ -4,7 +4,7 @@
 
 Welcome to the `technigo-zustand-boiler-plate`!
 
-This boilerplate is designed to give you a head start in your React projects, with a focus on understanding the structure and components. As a student of Technigo, you'll find this guide helpful in navigating and utilizing the repository.
+Welcome to the React Zustand Boilerplate! This repository provides a foundational setup for integrating Zustand with React, allowing you to manage state in a more straightforward and efficient manner.
 
 ## Demo
 
@@ -42,6 +42,8 @@ This boilerplate is designed to give you a head start in your React projects, wi
 Tip: Before you decide to delete all components and start from scratch, we suggest examining them closely to grasp their structure. They can act as a blueprint for your future work.
 
 ---
+
+Zustand offers a clean and efficient way to manage state in React applications. This boilerplate provides a practical example of how to use Zustand in your projects.
 
 We hope this guide helps you navigate and make the most out of this boilerplate.
 
