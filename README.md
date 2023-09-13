@@ -20,9 +20,13 @@ Welcome to the React Zustand Boilerplate! This repository provides a foundationa
 
 ### App Structure
 
-- App Component (`src/App.jsx`): This is the main component that renders the `Logos` and `ComponentWithStore` components.
+- ### App Component
 
-- ComponentWithStore (`src/components/ComponentWithStore.jsx`): This component showcases how to utilize the Zustand store. It displays various data types and provides interactive elements to manipulate the state. Here's a brief overview of its functionalities:
+  - (`src/App.jsx`): This is the main component that renders the `Logos` and `ComponentWithStore` components.
+
+- ### ComponentWithStore (`src/components/ComponentWithStore.jsx`):
+
+  - This component showcases how to utilize the Zustand store. It displays various data types and provides interactive elements to manipulate the state. Here's a brief overview of its functionalities:
 
   - Toggle login status.
   - Increment age.
@@ -31,7 +35,8 @@ Welcome to the React Zustand Boilerplate! This repository provides a foundationa
   - Change address.
   - Set a favorite sports team.
 
-- Zustand Store (`src/stores/storeExample.jsx`): This is where the magic happens! The store is created using Zustand's `create` method. It contains various state properties and methods to update them. The store includes:
+- ### Zustand Store (`src/stores/storeExample.jsx`):
+- This is where the magic happens! The store is created using Zustand's `create` method. It contains various state properties and methods to update them. The store includes:
 
   - App content with headings and descriptions.
   - User's login status, age, username, hobbies, address, and favorite sports team.
