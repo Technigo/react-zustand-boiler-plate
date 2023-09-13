@@ -18,27 +18,24 @@ This boilerplate is designed to give you a head start in your React projects, wi
 
 ## Navigating the Repository
 
-### App Component (`src/App.jsx`)
+### App Structure
 
-The `App.jsx` is the main component of the application. Here's a breakdown of its structure:
+- App Component (`src/App.jsx`): This is the main component that renders the `Logos` and `ComponentWithStore` components.
 
-- Reactive Data: Demonstrates the use of React hooks (`useState`) to manage state. For instance, there's a counter and a name changer to showcase how reactive data works in React.
-- Static Data: This data is used to populate the content of the app. It includes headings, descriptions, and examples.
-- Component Rendering: Various components from the `components` folder are rendered here to showcase their usage.
+- ComponentWithStore (`src/components/ComponentWithStore.jsx`): This component showcases how to utilize the Zustand store. It displays various data types and provides interactive elements to manipulate the state. Here's a brief overview of its functionalities:
 
-### Components (`src/components/`)
+  - Toggle login status.
+  - Increment age.
+  - Update username.
+  - Add hobbies.
+  - Change address.
+  - Set a favorite sports team.
 
-This folder contains multiple React components. Let's dive into each:
+- Zustand Store (`src/stores/storeExample.jsx`): This is where the magic happens! The store is created using Zustand's `create` method. It contains various state properties and methods to update them. The store includes:
 
-1.  Logos (`Logos.jsx`): Displays the logos of Vite, React, and Technigo. Each logo is linked to its respective official website.
-
-2.  StaticComponent (`StaticComponent.jsx`): A simple static component with no reactive data or JS logic. It contains an H4 and a paragraph element.
-
-3.  PropComponent (`PropComponent.jsx`): Demonstrates the use of props in React. It displays a small bio based on the props passed to it. For instance, it can tell if a person likes pineapple pizza or not!
-
-4.  PropComponentPropTypes (`PropComponentPropTypes.jsx`): Similar to the `PropComponent`, but with added PropTypes for type checking. It ensures that the component receives the right type of data for its props. If you want to see a PropTypes error, try removing the `name` prop in the `App.jsx` file and check the console.
-
-5.  ComponentWithCss (`ComponentWithCss/Component.jsx`): This component showcases how to organize styles with components. It has its own CSS file (`style.css`) in the same folder. It also explains why we use `className` in React instead of `class`.
+  - App content with headings and descriptions.
+  - User's login status, age, username, hobbies, address, and favorite sports team.
+  - Methods to toggle login, increment age, update username, add hobbies, change address, and set a favorite sports team.
 
 ---
 
