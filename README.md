@@ -8,7 +8,7 @@ Welcome to the React Zustand Boilerplate! This repository provides a foundationa
 
 ## Demo
 
-[You can check out a Demo of this boilerplate here.](https://technigo-react-vite-boiler-plate.netlify.app/)
+[You can check out a Demo of this boilerplate here.](https://react-vite-zustand-boiler-plate.netlify.app/)
 
 ## Getting Started
 
