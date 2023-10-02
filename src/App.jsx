@@ -1,5 +1,6 @@
 import { Logos } from "./components/Logos";
 import { ComponentWithStore } from "./components/ComponentWithStore";
+import { ComponentWithStoreTwo } from "./components/ComponentWithStoreTwo";
 
 export const App = () => {
   return (
@@ -7,6 +8,8 @@ export const App = () => {
       <Logos />
 
       <ComponentWithStore />
+      <hr />
+      <ComponentWithStoreTwo />
     </>
   );
 };
