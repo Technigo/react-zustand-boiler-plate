@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export const storeExample = create((set) => ({
+export const useStore = create((set) => ({
   appContent: {
     heading: "Vite + React + Zustand Technigo Boilerplate",
     reactivedataExampleOne:

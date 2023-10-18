@@ -1,4 +1,4 @@
-import { storeExample } from "../stores/storeExample";
+import { useStore } from "../stores/useStore";
 
 export const ComponentWithStore = () => {
   const {
@@ -15,7 +15,7 @@ export const ComponentWithStore = () => {
     addHobby,
     setAddress,
     setFavSportTeam,
-  } = storeExample();
+  } = useStore();
   return (
     <>
       <h1>{appContent.heading}</h1>

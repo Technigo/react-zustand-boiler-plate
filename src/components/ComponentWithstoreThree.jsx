@@ -1,7 +1,7 @@
-import { storeExample } from "../stores/storeExample";
+import { useStore } from "../stores/useStore";
 
 export const ComponentWithStoreThree = () => {
-  const { toggleLogin, incrementAge, isLogged, age } = storeExample();
+  const { toggleLogin, incrementAge, isLogged, age } = useStore();
   return (
     <div>
       <h2>User Settings</h2>

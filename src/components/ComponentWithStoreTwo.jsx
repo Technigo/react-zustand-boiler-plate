@@ -1,7 +1,7 @@
-import { storeExample } from "../stores/storeExample";
+import { useStore } from "../stores/useStore";
 
 export const ComponentWithStoreTwo = () => {
-  const { username, age } = storeExample();
+  const { username, age } = useStore();
   return (
     <div>
       <h2>User Profile</h2>
